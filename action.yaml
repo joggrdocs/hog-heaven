@@ -1,0 +1,19 @@
+name: '@joggrdocs/hog-heaven'
+description: 'Github action for sending release annotations to PostHog, aka make sure your PostHog cloud is in "Hog Heaven".'
+author: 'joggrdocs'
+branding:
+  icon: 'chevron-up'
+  color: 'yellow'
+inputs:
+  api_key:
+    required: true
+    description: 'Your PostHog "personal" API key'
+  project_id:
+    required: true
+    description: 'Your PostHog project ID'
+  content:
+    required: true
+    description: 'The content to send to PostHog as annotations'
+runs:
+  using: 'node16'
+  main: 'build/index.js'

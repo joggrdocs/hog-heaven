@@ -15,7 +15,9 @@ class PostHogHttpClient {
       url: this.buildUrl(`projects/${this.projectId}/annotations/`),
       data: {
         content,
-        date_marker: new Date().toISOString()
+        date_marker: new Date().toISOString(),
+        scope: 'project',
+        creation_type: 'GIT'
       },
       headers: {
         Authorization: `Bearer ${this.apiKey}`

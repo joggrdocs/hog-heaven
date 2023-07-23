@@ -50,7 +50,7 @@ jobs:
       # ... do some release things...
       
       - name: Check if package.json Version matches tag
-        uses: @joggrdocs/hog-heaven
+        uses: joggrdocs/hog-heaven@main
         with:
           api_key: ${{ secrets.POSTHOG_API_KEY }}
           project_id: 1111111

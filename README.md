@@ -28,7 +28,7 @@
 
 # Overview
 
-Github action for sending release annotations to PostHog, aka make sure your PostHog cloud is in "Hog Heaven".
+GitHub action for sending release annotations to PostHog, aka make sure your PostHog cloud is in "Hog Heaven".
 
 ## Usage
 

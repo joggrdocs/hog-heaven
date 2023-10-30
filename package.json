@@ -2,11 +2,11 @@
   "name": "hog-heaven",
   "version": "1.0.0",
   "description": "Github action for sending release annotations to PostHog, aka make sure your PostHog cloud is in \"Hog Heaven\".",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "jest --passWithNoTests",
     "build": "tsc",
-    "package": "ncc build --source-map --license licenses.txt --out build",
+    "package": "ncc build dist/index.js --source-map --license licenses.txt --out build",
     "pre-commit": "npm run format:fix && npm run lint:fix && npm run build && npm run package && git add .",
     "format:check": "prettier --check .",
     "format:fix": "prettier --write .",

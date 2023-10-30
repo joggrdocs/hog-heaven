@@ -19,10 +19,10 @@ categories:
       - 'chore'
       - 'maintain'
   - title: '👮 Security'
-    labels: 
+    labels:
       - 'security'
   - title: '⬆️ Dependencies'
-    labels: 
+    labels:
       - 'dependencies'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 version-resolver:

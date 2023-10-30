@@ -19,9 +19,11 @@ categories:
       - 'chore'
       - 'maintain'
   - title: '👮 Security'
-    label: 'security'
-  - title: '🤖 Dependabot'
-    label: 'dependencies'
+    labels: 
+      - 'security'
+  - title: '⬆️ Dependencies'
+    labels: 
+      - 'dependencies'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 version-resolver:
   major:

@@ -1,4 +1,4 @@
-name: 'Test Annotations in PostHog'
+name: 'ci: (manually) Test Annotations in PostHog'
 
 on:
   workflow_dispatch:

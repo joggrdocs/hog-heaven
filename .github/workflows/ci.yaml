@@ -1,31 +1,31 @@
-name: 'CI'
+name: 'ci: Code Standards & Testing'
 
 on:
   pull_request:
-    branches:
-      - main
+    types: [synchronize, opened, reopened, ready_for_review]
   push:
-    branches:
-      - main
+    branches: [main]
 
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   lintAndTest:
     name: Lint & Test
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v1
-      - name: Use Node.js v18
-        uses: actions/setup-node@v1
+      - name: '⬇️ Checkout Code'
+        uses: actions/checkout@v4
+      - name: '💚 Setup Node.js'
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
-      - name: Install Packages
-        run: npm install
-      - name: Format
-        run: npm run format:check
-      - name: Lint
-        run: npm run lint:check
-      - name: Type Check
-        run: npm run type:check
-      - name: Test
-        run: npm test --ci
+          node-version: 20
+          cache: 'yarn'
+      - name: '📦 Install Packages'
+        run: yarn install
+      - name: '🕵️ Code Linting & Formatting'
+        run: yarn analyze:ci
+      - name: '🟦 Typecheck'
+        run: yarn analyze:types
+      - name: '⚡️ Test'
+        run: yarn test:ci

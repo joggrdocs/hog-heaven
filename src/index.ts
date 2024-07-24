@@ -1,6 +1,6 @@
 import * as core from '@actions/core';
 
-import PostHogHttpClient from './PostHogHttpClient';
+import { PostHogHttpClient } from './http-client';
 
 async function run(): Promise<void> {
   try {

@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run pre-commit
+yarn biome check --staged --no-errors-on-unmatched
+yarn analyze:types
  

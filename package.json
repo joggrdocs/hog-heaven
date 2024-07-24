@@ -7,12 +7,13 @@
     "test": "jest --passWithNoTests",
     "build": "tsc",
     "package": "ncc build dist/index.js --source-map --license licenses.txt --out build",
-    "pre-commit": "npm run format:fix && npm run lint:fix && npm run build && npm run package && git add .",
-    "format:check": "prettier --check .",
-    "format:fix": "prettier --write .",
-    "lint:check": "eslint src/**/*.ts",
-    "lint:fix": "eslint --fix src/**/*.ts",
-    "type:check": "tsc --noEmit",
+    "analyze": "yarn analyze:types && yarn biome check",
+    "analyze:fmt": "biome format",
+    "analyze:ci": "biome ci --diagnostic-level=error",
+    "analyze:lint": "biome lint",
+    "fix:fmt": "biome format --fix",
+    "fix:lint": "biome lint --fix",
+    "analyze:types": "tsc --noEmit",
     "prepare": "husky install"
   },
   "repository": {
@@ -30,6 +31,7 @@
     "axios": "^1.6.8"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
     "@types/jest": "^29.5.11",
     "@types/node": "^20.12.2",
     "@typescript-eslint/eslint-plugin": "^7.7.0",
@@ -43,5 +45,6 @@
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
-  }
+  },
+  "packageManager": "yarn@4.3.1"
 }

@@ -27,7 +27,7 @@
   "homepage": "https://github.com/joggrdocs/hog-heaven#readme",
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "axios": "^1.6.8"
+    "axios": "^1.7.3"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",

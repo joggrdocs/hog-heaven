@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
-    "@types/node": "^20.12.2",
+    "@types/node": "^22.5.0",
     "@vercel/ncc": "^0.38.1",
     "dotenv": "^16.3.1",
     "husky": "^9.1.1",

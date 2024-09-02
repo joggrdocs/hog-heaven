@@ -249,14 +249,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.6.8":
-  version: 1.7.2
-  resolution: "axios@npm:1.7.2"
+"axios@npm:^1.7.7":
+  version: 1.7.7
+  resolution: "axios@npm:1.7.7"
   dependencies:
     follow-redirects: "npm:^1.15.6"
     form-data: "npm:^4.0.0"
     proxy-from-env: "npm:^1.1.0"
-  checksum: 10/6ae80dda9736bb4762ce717f1a26ff997d94672d3a5799ad9941c24d4fb019c1dff45be8272f08d1975d7950bac281f3ba24aff5ecd49ef5a04d872ec428782f
+  checksum: 10/7f875ea13b9298cd7b40fd09985209f7a38d38321f1118c701520939de2f113c4ba137832fe8e3f811f99a38e12c8225481011023209a77b0c0641270e20cde1
   languageName: node
   linkType: hard
 
@@ -503,7 +503,7 @@ __metadata:
     "@biomejs/biome": "npm:^1.8.3"
     "@types/node": "npm:^20.12.2"
     "@vercel/ncc": "npm:^0.38.1"
-    axios: "npm:^1.6.8"
+    axios: "npm:^1.7.7"
     dotenv: "npm:^16.3.1"
     husky: "npm:^9.1.1"
     typescript: "npm:^5.3.3"

@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@biomejs/biome", "npm:1.8.3"],\
           ["@types/node", "npm:20.14.12"],\
           ["@vercel/ncc", "npm:0.38.1"],\
-          ["axios", "npm:1.7.2"],\
+          ["axios", "npm:1.7.7"],\
           ["dotenv", "npm:16.4.5"],\
           ["husky", "npm:9.1.1"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
@@ -309,11 +309,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["axios", [\
-      ["npm:1.7.2", {\
-        "packageLocation": "./.yarn/cache/axios-npm-1.7.2-c89264f6f7-6ae80dda97.zip/node_modules/axios/",\
+      ["npm:1.7.7", {\
+        "packageLocation": "./.yarn/cache/axios-npm-1.7.7-cfbedc233d-7f875ea13b.zip/node_modules/axios/",\
         "packageDependencies": [\
-          ["axios", "npm:1.7.2"],\
-          ["follow-redirects", "virtual:c89264f6f79513b22a07db5e53adf77eba9e48634cf471fb55eb2e75d910809bbac48d9ce7a920c63c8ff2780624fff91866270d8acf614cbd0c4cb748a8b29a#npm:1.15.6"],\
+          ["axios", "npm:1.7.7"],\
+          ["follow-redirects", "virtual:cfbedc233d4c16068d815547ad303dec1092fdb3b8bb4ec9ab9c56bdd55b4e87650c7a525a88805756f4d2819c03abfd96a9983cfa927fedf995d1b8b879db38#npm:1.15.6"],\
           ["form-data", "npm:4.0.0"],\
           ["proxy-from-env", "npm:1.1.0"]\
         ],\
@@ -530,10 +530,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:c89264f6f79513b22a07db5e53adf77eba9e48634cf471fb55eb2e75d910809bbac48d9ce7a920c63c8ff2780624fff91866270d8acf614cbd0c4cb748a8b29a#npm:1.15.6", {\
-        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-d6f128c480/0/cache/follow-redirects-npm-1.15.6-50635fe51d-70c7612c4c.zip/node_modules/follow-redirects/",\
+      ["virtual:cfbedc233d4c16068d815547ad303dec1092fdb3b8bb4ec9ab9c56bdd55b4e87650c7a525a88805756f4d2819c03abfd96a9983cfa927fedf995d1b8b879db38#npm:1.15.6", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-ccbb070eb1/0/cache/follow-redirects-npm-1.15.6-50635fe51d-70c7612c4c.zip/node_modules/follow-redirects/",\
         "packageDependencies": [\
-          ["follow-redirects", "virtual:c89264f6f79513b22a07db5e53adf77eba9e48634cf471fb55eb2e75d910809bbac48d9ce7a920c63c8ff2780624fff91866270d8acf614cbd0c4cb748a8b29a#npm:1.15.6"],\
+          ["follow-redirects", "virtual:cfbedc233d4c16068d815547ad303dec1092fdb3b8bb4ec9ab9c56bdd55b4e87650c7a525a88805756f4d2819c03abfd96a9983cfa927fedf995d1b8b879db38#npm:1.15.6"],\
           ["@types/debug", null],\
           ["debug", null]\
         ],\
@@ -618,7 +618,7 @@ const RAW_RUNTIME_STATE =
           ["@biomejs/biome", "npm:1.8.3"],\
           ["@types/node", "npm:20.14.12"],\
           ["@vercel/ncc", "npm:0.38.1"],\
-          ["axios", "npm:1.7.2"],\
+          ["axios", "npm:1.7.7"],\
           ["dotenv", "npm:16.4.5"],\
           ["husky", "npm:9.1.1"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\

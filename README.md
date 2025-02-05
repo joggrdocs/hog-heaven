@@ -65,13 +65,7 @@ Licensed under MIT.
 <br>
 <hr>
 <h2 align="center">
-    Want to sign up for Joggr?
+
+Want to sign up for Joggr? Check us out at <a href="https://joggr.io">Joggr</a>
+
 </h2>
-<p align="center">
-    We'd love to have you join, but we are in closed beta. <br> You can join our waitlist below.
-</p>
-<p align="center">
-    <a href="https://www.joggr.io/closed-beta-waitlist?utm_source=github&utm_medium=org-readme&utm_campaign=static-docs" alt="Join the Waitlist">
-        <img src="https://storage.googleapis.com/joggr-public-assets/github/badges/join-waitlist-badge.svg" width="250px" />
-    </a>
-</p>

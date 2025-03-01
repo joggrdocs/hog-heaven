@@ -505,7 +505,7 @@ __metadata:
     "@vercel/ncc": "npm:^0.38.1"
     axios: "npm:^1.7.4"
     dotenv: "npm:^16.3.1"
-    husky: "npm:^9.1.1"
+    husky: "npm:^9.1.6"
     typescript: "npm:^5.3.3"
   languageName: unknown
   linkType: soft
@@ -537,12 +537,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^9.1.1":
-  version: 9.1.1
-  resolution: "husky@npm:9.1.1"
+"husky@npm:^9.1.6":
+  version: 9.1.6
+  resolution: "husky@npm:9.1.6"
   bin:
     husky: bin.js
-  checksum: 10/c3be0392071b78c680fc6b9fd7978f52c26e18238a2840c6eabfc0db395e19fcd798da8eff0e31a9e76c479d6019a567d83a8de80f360d28552bc83bd1839b7c
+  checksum: 10/421ccd8850378231aaefd70dbe9e4f1549b84ffe3a6897f93a202242bbc04e48bd498169aef43849411105d9fcf7c192b757d42661e28d06b934a609a4eb8771
   languageName: node
   linkType: hard
 

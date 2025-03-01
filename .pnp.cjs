@@ -34,7 +34,7 @@ const RAW_RUNTIME_STATE =
           ["axios", "npm:1.8.1"],\
           ["dotenv", "npm:16.4.5"],\
           ["husky", "npm:9.1.6"],\
-          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=379a07"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -621,7 +621,7 @@ const RAW_RUNTIME_STATE =
           ["axios", "npm:1.8.1"],\
           ["dotenv", "npm:16.4.5"],\
           ["husky", "npm:9.1.6"],\
-          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=379a07"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1201,10 +1201,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["typescript", [\
-      ["patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07", {\
-        "packageLocation": "./.yarn/cache/typescript-patch-fe43cd9db9-746fdd0865.zip/node_modules/typescript/",\
+      ["patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=379a07", {\
+        "packageLocation": "./.yarn/cache/typescript-patch-d566e85d64-6ae9b2c4d3.zip/node_modules/typescript/",\
         "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=379a07"]\
         ],\
         "linkType": "HARD"\
       }]\

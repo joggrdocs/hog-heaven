@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/core", "npm:1.10.1"],\
           ["@biomejs/biome", "npm:1.9.4"],\
-          ["@types/node", "npm:20.14.12"],\
+          ["@types/node", "npm:22.13.7"],\
           ["@vercel/ncc", "npm:0.38.1"],\
           ["axios", "npm:1.8.1"],\
           ["dotenv", "npm:16.4.5"],\
@@ -217,11 +217,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:20.14.12", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-20.14.12-c6cc526f86-9205bf46ef.zip/node_modules/@types/node/",\
+      ["npm:22.13.7", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-22.13.7-52f46ea9d1-05dae7014a.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.14.12"],\
-          ["undici-types", "npm:5.26.5"]\
+          ["@types/node", "npm:22.13.7"],\
+          ["undici-types", "npm:6.20.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -616,7 +616,7 @@ const RAW_RUNTIME_STATE =
           ["hog-heaven", "workspace:."],\
           ["@actions/core", "npm:1.10.1"],\
           ["@biomejs/biome", "npm:1.9.4"],\
-          ["@types/node", "npm:20.14.12"],\
+          ["@types/node", "npm:22.13.7"],\
           ["@vercel/ncc", "npm:0.38.1"],\
           ["axios", "npm:1.8.1"],\
           ["dotenv", "npm:16.4.5"],\
@@ -1220,10 +1220,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:5.26.5", {\
-        "packageLocation": "./.yarn/cache/undici-types-npm-5.26.5-de4f7c7bb9-0097779d94.zip/node_modules/undici-types/",\
+      ["npm:6.20.0", {\
+        "packageLocation": "./.yarn/cache/undici-types-npm-6.20.0-bd21e669af-583ac7bbf4.zip/node_modules/undici-types/",\
         "packageDependencies": [\
-          ["undici-types", "npm:5.26.5"]\
+          ["undici-types", "npm:6.20.0"]\
         ],\
         "linkType": "HARD"\
       }]\

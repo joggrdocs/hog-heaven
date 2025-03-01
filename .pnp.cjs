@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@biomejs/biome", "npm:1.9.4"],\
           ["@types/node", "npm:20.14.12"],\
           ["@vercel/ncc", "npm:0.38.1"],\
-          ["axios", "npm:1.7.2"],\
+          ["axios", "npm:1.8.1"],\
           ["dotenv", "npm:16.4.5"],\
           ["husky", "npm:9.1.1"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
@@ -56,7 +56,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/http-client", "npm:2.2.1"],\
           ["tunnel", "npm:0.0.6"],\
-          ["undici", "npm:5.28.4"]\
+          ["undici", "npm:5.28.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -309,11 +309,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["axios", [\
-      ["npm:1.7.2", {\
-        "packageLocation": "./.yarn/cache/axios-npm-1.7.2-c89264f6f7-6ae80dda97.zip/node_modules/axios/",\
+      ["npm:1.8.1", {\
+        "packageLocation": "./.yarn/cache/axios-npm-1.8.1-8a5eaf948f-5a09a2b39e.zip/node_modules/axios/",\
         "packageDependencies": [\
-          ["axios", "npm:1.7.2"],\
-          ["follow-redirects", "virtual:c89264f6f79513b22a07db5e53adf77eba9e48634cf471fb55eb2e75d910809bbac48d9ce7a920c63c8ff2780624fff91866270d8acf614cbd0c4cb748a8b29a#npm:1.15.6"],\
+          ["axios", "npm:1.8.1"],\
+          ["follow-redirects", "virtual:8a5eaf948f972827ad382e1634a66db7251ca4c1e17c5e72e815f2ff4664941f3261c1156c1523b91e5319cef69577e1e3b0b67fbc3f006ce5929c315eede323#npm:1.15.6"],\
           ["form-data", "npm:4.0.0"],\
           ["proxy-from-env", "npm:1.1.0"]\
         ],\
@@ -408,10 +408,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cross-spawn", [\
-      ["npm:7.0.3", {\
-        "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.3-e4ff3e65b3-e1a13869d2.zip/node_modules/cross-spawn/",\
+      ["npm:7.0.6", {\
+        "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.6-264bddf921-0d52657d7a.zip/node_modules/cross-spawn/",\
         "packageDependencies": [\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["path-key", "npm:3.1.1"],\
           ["shebang-command", "npm:2.0.0"],\
           ["which", "npm:2.0.2"]\
@@ -530,10 +530,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:c89264f6f79513b22a07db5e53adf77eba9e48634cf471fb55eb2e75d910809bbac48d9ce7a920c63c8ff2780624fff91866270d8acf614cbd0c4cb748a8b29a#npm:1.15.6", {\
-        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-d6f128c480/0/cache/follow-redirects-npm-1.15.6-50635fe51d-70c7612c4c.zip/node_modules/follow-redirects/",\
+      ["virtual:8a5eaf948f972827ad382e1634a66db7251ca4c1e17c5e72e815f2ff4664941f3261c1156c1523b91e5319cef69577e1e3b0b67fbc3f006ce5929c315eede323#npm:1.15.6", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-2b4271fa16/0/cache/follow-redirects-npm-1.15.6-50635fe51d-70c7612c4c.zip/node_modules/follow-redirects/",\
         "packageDependencies": [\
-          ["follow-redirects", "virtual:c89264f6f79513b22a07db5e53adf77eba9e48634cf471fb55eb2e75d910809bbac48d9ce7a920c63c8ff2780624fff91866270d8acf614cbd0c4cb748a8b29a#npm:1.15.6"],\
+          ["follow-redirects", "virtual:8a5eaf948f972827ad382e1634a66db7251ca4c1e17c5e72e815f2ff4664941f3261c1156c1523b91e5319cef69577e1e3b0b67fbc3f006ce5929c315eede323#npm:1.15.6"],\
           ["@types/debug", null],\
           ["debug", null]\
         ],\
@@ -549,7 +549,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/foreground-child-npm-3.2.1-788dc2267e-77b33b3c43.zip/node_modules/foreground-child/",\
         "packageDependencies": [\
           ["foreground-child", "npm:3.2.1"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["signal-exit", "npm:4.1.0"]\
         ],\
         "linkType": "HARD"\
@@ -618,7 +618,7 @@ const RAW_RUNTIME_STATE =
           ["@biomejs/biome", "npm:1.9.4"],\
           ["@types/node", "npm:20.14.12"],\
           ["@vercel/ncc", "npm:0.38.1"],\
-          ["axios", "npm:1.7.2"],\
+          ["axios", "npm:1.8.1"],\
           ["dotenv", "npm:16.4.5"],\
           ["husky", "npm:9.1.1"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
@@ -1210,10 +1210,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici", [\
-      ["npm:5.28.4", {\
-        "packageLocation": "./.yarn/cache/undici-npm-5.28.4-63fa65e206-a666a9f5ac.zip/node_modules/undici/",\
+      ["npm:5.28.5", {\
+        "packageLocation": "./.yarn/cache/undici-npm-5.28.5-52b9d359fd-459cd84ab7.zip/node_modules/undici/",\
         "packageDependencies": [\
-          ["undici", "npm:5.28.4"],\
+          ["undici", "npm:5.28.5"],\
           ["@fastify/busboy", "npm:2.1.1"]\
         ],\
         "linkType": "HARD"\

@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@actions/core", "npm:1.10.1"],\
           ["@biomejs/biome", "npm:1.9.4"],\
           ["@types/node", "npm:22.13.7"],\
-          ["@vercel/ncc", "npm:0.38.1"],\
+          ["@vercel/ncc", "npm:0.38.3"],\
           ["axios", "npm:1.8.1"],\
           ["dotenv", "npm:16.4.5"],\
           ["husky", "npm:9.1.6"],\
@@ -227,10 +227,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/ncc", [\
-      ["npm:0.38.1", {\
-        "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.1-529f6837ea-2ed9dff34b.zip/node_modules/@vercel/ncc/",\
+      ["npm:0.38.3", {\
+        "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.3-cb2c08b26f-f1a05a58e9.zip/node_modules/@vercel/ncc/",\
         "packageDependencies": [\
-          ["@vercel/ncc", "npm:0.38.1"],\
+          ["@vercel/ncc", "npm:0.38.3"],\
           ["node-gyp", "npm:10.2.0"]\
         ],\
         "linkType": "HARD"\
@@ -617,7 +617,7 @@ const RAW_RUNTIME_STATE =
           ["@actions/core", "npm:1.10.1"],\
           ["@biomejs/biome", "npm:1.9.4"],\
           ["@types/node", "npm:22.13.7"],\
-          ["@vercel/ncc", "npm:0.38.1"],\
+          ["@vercel/ncc", "npm:0.38.3"],\
           ["axios", "npm:1.8.1"],\
           ["dotenv", "npm:16.4.5"],\
           ["husky", "npm:9.1.6"],\

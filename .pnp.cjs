@@ -32,7 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.13.7"],\
           ["@vercel/ncc", "npm:0.38.1"],\
           ["axios", "npm:1.8.1"],\
-          ["dotenv", "npm:16.4.5"],\
+          ["dotenv", "npm:16.4.7"],\
           ["husky", "npm:9.1.6"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
@@ -452,10 +452,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["dotenv", [\
-      ["npm:16.4.5", {\
-        "packageLocation": "./.yarn/cache/dotenv-npm-16.4.5-bcb20eb95d-55a3134601.zip/node_modules/dotenv/",\
+      ["npm:16.4.7", {\
+        "packageLocation": "./.yarn/cache/dotenv-npm-16.4.7-29680c94f8-f13bfe97db.zip/node_modules/dotenv/",\
         "packageDependencies": [\
-          ["dotenv", "npm:16.4.5"]\
+          ["dotenv", "npm:16.4.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -619,7 +619,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.13.7"],\
           ["@vercel/ncc", "npm:0.38.1"],\
           ["axios", "npm:1.8.1"],\
-          ["dotenv", "npm:16.4.5"],\
+          ["dotenv", "npm:16.4.7"],\
           ["husky", "npm:9.1.6"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\

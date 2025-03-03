@@ -33,7 +33,7 @@
     "@biomejs/biome": "^1.9.4",
     "@types/node": "^22.13.7",
     "@vercel/ncc": "^0.38.1",
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.4.7",
     "husky": "^9.1.6",
     "typescript": "^5.3.3"
   },

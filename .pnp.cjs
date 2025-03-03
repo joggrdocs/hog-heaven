@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@actions/core", "npm:1.10.1"],\
+          ["@actions/core", "npm:1.11.1"],\
           ["@biomejs/biome", "npm:1.9.4"],\
           ["@types/node", "npm:22.13.7"],\
           ["@vercel/ncc", "npm:0.38.1"],\
@@ -40,12 +40,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@actions/core", [\
-      ["npm:1.10.1", {\
-        "packageLocation": "./.yarn/cache/@actions-core-npm-1.10.1-3cb1000b4d-d32af783ec.zip/node_modules/@actions/core/",\
+      ["npm:1.11.1", {\
+        "packageLocation": "./.yarn/cache/@actions-core-npm-1.11.1-ad090a2026-94f260e336.zip/node_modules/@actions/core/",\
         "packageDependencies": [\
-          ["@actions/core", "npm:1.10.1"],\
-          ["@actions/http-client", "npm:2.2.1"],\
-          ["uuid", "npm:8.3.2"]\
+          ["@actions/core", "npm:1.11.1"],\
+          ["@actions/exec", "npm:1.1.1"],\
+          ["@actions/http-client", "npm:2.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@actions/exec", [\
+      ["npm:1.1.1", {\
+        "packageLocation": "./.yarn/cache/@actions-exec-npm-1.1.1-90973d2f96-c04bd25191.zip/node_modules/@actions/exec/",\
+        "packageDependencies": [\
+          ["@actions/exec", "npm:1.1.1"],\
+          ["@actions/io", "npm:1.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -57,6 +67,15 @@ const RAW_RUNTIME_STATE =
           ["@actions/http-client", "npm:2.2.1"],\
           ["tunnel", "npm:0.0.6"],\
           ["undici", "npm:5.28.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@actions/io", [\
+      ["npm:1.1.3", {\
+        "packageLocation": "./.yarn/cache/@actions-io-npm-1.1.3-82d1cf012b-4de44e8d42.zip/node_modules/@actions/io/",\
+        "packageDependencies": [\
+          ["@actions/io", "npm:1.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -614,7 +633,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["hog-heaven", "workspace:."],\
-          ["@actions/core", "npm:1.10.1"],\
+          ["@actions/core", "npm:1.11.1"],\
           ["@biomejs/biome", "npm:1.9.4"],\
           ["@types/node", "npm:22.13.7"],\
           ["@vercel/ncc", "npm:0.38.1"],\
@@ -1244,15 +1263,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["unique-slug", "npm:4.0.0"],\
           ["imurmurhash", "npm:0.1.4"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["uuid", [\
-      ["npm:8.3.2", {\
-        "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-9a5f7aa1d6.zip/node_modules/uuid/",\
-        "packageDependencies": [\
-          ["uuid", "npm:8.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\

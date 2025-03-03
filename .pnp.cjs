@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
           ["@vercel/ncc", "npm:0.38.1"],\
           ["axios", "npm:1.8.1"],\
           ["dotenv", "npm:16.4.5"],\
-          ["husky", "npm:9.1.6"],\
+          ["husky", "npm:9.1.7"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "linkType": "SOFT"\
@@ -620,7 +620,7 @@ const RAW_RUNTIME_STATE =
           ["@vercel/ncc", "npm:0.38.1"],\
           ["axios", "npm:1.8.1"],\
           ["dotenv", "npm:16.4.5"],\
-          ["husky", "npm:9.1.6"],\
+          ["husky", "npm:9.1.7"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "linkType": "SOFT"\
@@ -658,10 +658,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["husky", [\
-      ["npm:9.1.6", {\
-        "packageLocation": "./.yarn/cache/husky-npm-9.1.6-f05821288d-421ccd8850.zip/node_modules/husky/",\
+      ["npm:9.1.7", {\
+        "packageLocation": "./.yarn/cache/husky-npm-9.1.7-5b02eaabc4-c2412753f1.zip/node_modules/husky/",\
         "packageDependencies": [\
-          ["husky", "npm:9.1.6"]\
+          ["husky", "npm:9.1.7"]\
         ],\
         "linkType": "HARD"\
       }]\
